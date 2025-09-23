@@ -1,5 +1,5 @@
-echo "Paste your curl command, then press Ctrl+D: "
-read -d '' curl_cmd
+echo "Paste your copied cURL request from chrome, then press Ctrl+D:"
+read -d '' curl_cmd < /dev/tty
 rest=$(echo "$curl_cmd" | tail -n +2)
 
 new_cmd="curl -o /dev/null -s -w "%{http_code}" 'https://www.instagram.com/graphql/query'"
