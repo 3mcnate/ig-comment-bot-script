@@ -1,0 +1,27 @@
+curl 'https://www.instagram.com/graphql/query' \
+  -H 'accept: */*' \
+  -H 'accept-language: en-US,en;q=0.9' \
+  -H 'content-type: application/x-www-form-urlencoded' \
+  -b 'datr=jy1raLa7juWrFG38lhxs7G8d; ig_did=60FB045D-010B-4978-AE68-C7A3F72BD8DE; ig_nrcb=1; csrftoken=Xg8EB7LhDCifIQIxf5MbCxRUMFQQW9J9; mid=aKqRAgAEAAFTManvWmUjtF8uA8mY; ds_user_id=5400195045; ps_l=1; ps_n=1; sessionid=5400195045%3AJzzNMyvARAZ953%3A14%3AAYjwbAzRpu3GBKB28zcCjkXfYQSAZwfvVXJySeS-FA; dpr=2; wd=934x823; rur="CCO\0545400195045\0541790202167:01fed808685936460a5ce6b58bd9383475fea7bab9a3e85272c0eb7c9bceb1e08bc7c07d"' \
+  -H 'origin: https://www.instagram.com' \
+  -H 'priority: u=1, i' \
+  -H 'referer: https://www.instagram.com/p/DO6saVckhMQ/' \
+  -H 'sec-ch-prefers-color-scheme: light' \
+  -H 'sec-ch-ua: "Chromium";v="140", "Not=A?Brand";v="24", "Google Chrome";v="140"' \
+  -H 'sec-ch-ua-full-version-list: "Chromium";v="140.0.7339.133", "Not=A?Brand";v="24.0.0.0", "Google Chrome";v="140.0.7339.133"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-model: ""' \
+  -H 'sec-ch-ua-platform: "macOS"' \
+  -H 'sec-ch-ua-platform-version: "15.3.2"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36' \
+  -H 'x-asbd-id: 359341' \
+  -H 'x-bloks-version-id: d52f8c757c77651cbc395ed64e24b0440506126bdb62d32f987366e8afddd46c' \
+  -H 'x-csrftoken: Xg8EB7LhDCifIQIxf5MbCxRUMFQQW9J9' \
+  -H 'x-fb-friendly-name: PolarisPostCommentInputRevampedMutation' \
+  -H 'x-fb-lsd: akZnGA8zX9-lWw0M_ynZ4h' \
+  -H 'x-ig-app-id: 936619743392459' \
+  -H 'x-root-field-name: xdt_web__comments__media_id__add_queryable' \
+  --data-raw 'av=17841405371365024&__d=www&__user=0&__a=1&__req=z&__hs=20354.HYP%3Ainstagram_web_pkg.2.1...0&dpr=2&__ccg=EXCELLENT&__rev=1027481721&__s=xwqrtn%3Ajoymu3%3Ay3slit&__hsi=7553413651937011732&__dyn=7xeUjG1mxu1syUbFp41twWwIxu13wvoKewSAwHwNw9G2S7o2vwa24o0B-q1ew6ywaq0yE462mcw5Mx62G5UswoEcE7O2l0Fwqo31w9O1TwQzXwae4UaEW2G0AEco5G1Wxfxm16wUwtE420k62-azqwt8d-2u2J0bS1LwTwKG1pg2fwxyo6O1FwlA3a3zhA6bwgbxui2qi7E5y4UrwHwrE5SbBK4o11olxO7EG3a13AwhES5E&__csr=ghMbj6Pl49sLd6Pi8ZGyh3iLOQOOnqOYORVqCXFJ2WHyEJoCuuiiQA4JWWgKPlSRgC8ABJUgJ2oyrrS6Feq4U9uq_TAKmrzLzkFpuvxd39FqxaKmmhyby9qp8GE-u5ByWDCzK4-iq4QGAxCu8Fe9x69LG5bVEb8yi4UW2aUWdzpE01oc68gao22809lw38o282EGPxong5jU12GLcu1Zw0yE82qU0PGzi0gAq9gtgze6o88Ihy8V0loye8K8igcE5u3S1KwoEC1BxK1MCg0AigE4u0xomw8m8O02qEzxfQ5Q07y20BwB802fK024O03iu0iy0djw4qxOrw4Yw1Oa0rFw&__hsdp=g8c4cBEj4hqd4iEvQDiTKB9EJG5xd37CbjYI8igUt49uA9CqF3Vpjpo8rw-C89IMW2Y9kcG7QbG139cn13Nx49AxC19l1Yw4G4pmtwPyEtwkEeA43waOq0wUiy8ng46EjgsDyElwFBAQ0hy1AwUw5xAw4Lghw74wn8-1Jw8G8yU1lE7y0PFU2Yg5-1R80A821wHe1izE5q5U7h0qEdUow&__hblp=2osx60x43Cmu7oCaxaq2S4FEpw8m1uwOyEGmV42a1drgK3q2C2m2GdKEO8xu3h2EtU528wCwSxau2Oq3OcBg4l0xgiCCz9V8Sh0_xx1O4E-mU9oGE9U2Vy8bo6iEdoeohwlE2UBAx21hwcN163u1aw51wn8-2S3uu3e1gBy8K18w4dx-1owmo7iu0CU841iz87kw2gw_wgoaPUuwNiBAU88cWx6E7dwXG2qi3u6aw&__sjsp=g8c4cBEjeyOEQhax_itbiKB9EJG5xd37CbjYIuygUt49uUCbF3UiwHw-CQ262Y9ogxZ2WwgOkVsch363V86dk0bvwoWwVw&__comet_req=7&fb_dtsg=NAfsfXP1m1NNH5-TF5rmCDRMHDYnQjbAPpLCsKc8th7TXd4S05dJuBQ%3A17858225011064242%3A1757096380&jazoest=25993&lsd=akZnGA8zX9-lWw0M_ynZ4h&__spin_r=1027481721&__spin_b=trunk&__spin_t=1758666162&__crn=comet.igweb.PolarisDesktopPostRoute&fb_api_caller_class=RelayModern&fb_api_req_friendly_name=PolarisPostCommentInputRevampedMutation&variables=%7B%22connections%22%3A%5B%22client%3Aroot%3A__PolarisPostComments__xdt_api__v1__media__media_id__comments__connection_connection(data%3A%7B%7D%2Cmedia_id%3A%5C%223727486965383303952%5C%22%2Csort_order%3A%5C%22popular%5C%22)%22%5D%2C%22request_data%22%3A%7B%22comment_text%22%3A%22ps%22%7D%2C%22media_id%22%3A%223727486965383303952%22%7D&server_timestamps=true&doc_id=24396936719894935'
