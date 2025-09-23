@@ -1,4 +1,4 @@
-echo "Copy the cURL request from chrome, then press enter. (your command automatically gets pasted in here)"
+echo "Once you've copied the cURL request from chrome, press enter. Your command automatically gets pasted in here."
 read
 curl_cmd=$(pbpaste)
 echo "Read command"
