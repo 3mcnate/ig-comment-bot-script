@@ -1,5 +1,5 @@
 echo "Once you've copied the cURL request from chrome, press enter. Your command automatically gets pasted in here."
-read
+read < /dev/tty
 curl_cmd=$(pbpaste)
 echo "Read command"
 
