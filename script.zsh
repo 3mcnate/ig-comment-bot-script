@@ -16,7 +16,8 @@ for ((i = 0; i < 5000; i++)); do
 
 	if [[ "$status_code" != "200" ]]; then
 		echo "Successfully sent $i commends before getting an error: $status_code"
-		echo "Try copying the request again and rerunning this command" 
+		echo "Try copying the request again and rerunning this command"
+		echo "If you get error: 302, instagram thinks you're a bot for a while and you'll have to try this with a different account." 
 		break
 	fi
 	echo "$i: success"
