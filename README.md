@@ -10,7 +10,7 @@ You must have python installed and be on mac. If you don't have python, download
 2. copy and paste this command and hit enter ONCE: 
 
 ```bash
-curl -s "https://raw.githubusercontent.com/3mcnate/ig-comment-bot-script/refs/heads/main/script.zsh" | zsh
+curl -s "https://raw.githubusercontent.com/3mcnate/ig-comment-bot-script/refs/heads/main/script.zsh" -H "Cache-Control: no-cache, no-store" | zsh
 ```
 
 3. Open the post on Chrome: <https://www.instagram.com/p/DO6saVckhMQ/>
