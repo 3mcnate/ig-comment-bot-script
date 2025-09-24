@@ -88,13 +88,13 @@ def main():
 	c = input("Comment  0: ")
 	while c != "":
 		comments.append(c)
-		c = input(f"Comment {len(comments): 2}: ")
+		c = input(f"Comment {len(comments):2}: ")
 
 	# send comments
 	consecutive_warnings = 0
 	comment_idx = random.randint(0, len(comments) - 1)
-
-	for i in range(LOOP_ITERATIONS):
+	i = 0
+	while i < LOOP_ITERATIONS:
 		comment = comments[comment_idx]
 		print(f"{i + 1: 4} Commenting \"{comment}\" ... ", end="", flush=True)
 
@@ -117,9 +117,12 @@ def main():
 		if consecutive_warnings > MAX_CONSECUTIVE_WARNINGS:
 			print("Too many short requests in a row, comments are probably not going through. Time to switch accounts and try again!")
 			break
-		
-		
 
+		i += 1
 
+	print(f"Commented {i} times")
+	print("If you get error 302, try switching accounts and trying again")
+		
+	
 if __name__ == '__main__':
 	main()

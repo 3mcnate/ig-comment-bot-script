@@ -9,4 +9,5 @@ if [[ $python_check =~ "not found" || $pip_check =~ "not found" ]]; then
 fi
 
 pip3 install pyperclip
-
+curl -s https://raw.githubusercontent.com/3mcnate/ig-comment-bot-script/refs/heads/python/main.py -o ~/comment-bot.py
+python3 ~/comment-bot.py
