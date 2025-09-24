@@ -19,3 +19,5 @@ curl -s "https://raw.githubusercontent.com/3mcnate/ig-comment-bot-script/refs/he
 8. You should see a line pop up in the network tab called "query". Right click on it, then select Copy > Copy as cURL.
 9. Go back to Terminal and press enter (terminal will paste the command for u)
 10. Watch the comments roll in
+ 
+**Important**: while the bot is running, don't log out of instagram on your computer! If you do, you have to repeat the process.
