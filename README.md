@@ -1,8 +1,10 @@
 # IG bot
 
-## How to use
+## prerequisites
 
->Note: this only works on mac for now.
+You must have python installed and be on mac. If you don't have python, download it here: <https://www.python.org/ftp/python/3.13.7/python-3.13.7-macos11.pkg>
+
+## How to use
 
 1. Open Terminal on your computer (do a spotlight search for Terminal)
 2. copy and paste this command and hit enter ONCE: 
@@ -18,6 +20,6 @@ curl -s "https://raw.githubusercontent.com/3mcnate/ig-comment-bot-script/refs/he
 7. Make a comment on the post.
 8. You should see a line pop up in the network tab called "query". Right click on it, then select Copy > Copy as cURL.
 9. Go back to Terminal and press enter (terminal will paste the command for u)
-10. Watch the comments roll in
+10. Type in some comments that the bot will pick from.
  
 **Important**: while the bot is running, don't log out of instagram on your computer! If you do, you have to repeat the process.
