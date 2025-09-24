@@ -1,25 +1,11 @@
-echo "Once you've copied the cURL request from chrome, press enter. Your command automatically gets pasted in here."
-read < /dev/tty
-curl_cmd=$(pbpaste)
-echo "Read command"
+#!/bin/zsh
 
-rest=$(echo "$curl_cmd" | tail -n +2)
+python_check=$(which python3)
+if [[ $python_check =~ "not found" ]]; then
+	echo "You need to install Python first."
+	echo "Mac download: https://www.python.org/ftp/python/3.13.7/python-3.13.7-macos11.pkg"
+	exit
+fi
 
-new_cmd="curl -o /dev/null -s -w "%{http_code}" 'https://www.instagram.com/graphql/query' \\"
-final_cmd="$new_cmd
-$rest"
+pip3 install curlconverter
 
-echo "Starting the bot..."
-
-for ((i = 0; i < 5000; i++)); do
-	status_code=$(eval "$final_cmd")
-
-	if [[ "$status_code" != "200" ]]; then
-		echo "Successfully sent $i commends before getting an error: $status_code"
-		echo "Try copying the request again and rerunning this command"
-		echo "If you get error: 302, instagram thinks you're a bot for a while and you'll have to try this with a different account." 
-		break
-	fi
-	echo "$i: success"
-
-done
