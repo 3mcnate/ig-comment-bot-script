@@ -1,5 +1,7 @@
 #!/bin/zsh
 
+echo "Version 0.2"
+
 python_check=$(which python3)
 pip_check=$(which pip3)
 if [[ $python_check =~ "not found" || $pip_check =~ "not found" ]]; then
