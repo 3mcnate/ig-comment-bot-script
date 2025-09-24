@@ -10,6 +10,6 @@ if [[ $python_check =~ "not found" || $pip_check =~ "not found" ]]; then
 	exit
 fi
 
-pip3 install pyperclip
+pip3 install pyperclip --disable-pip-version-check -q
 curl -s https://raw.githubusercontent.com/3mcnate/ig-comment-bot-script/refs/heads/main/main.py -o ~/comment-bot.py
 python3 ~/comment-bot.py
