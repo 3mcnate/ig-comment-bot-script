@@ -7,5 +7,4 @@ if [[ $python_check =~ "not found" ]]; then
 	exit
 fi
 
-pip3 install curlconverter
-
+pip3 install pyperclip
