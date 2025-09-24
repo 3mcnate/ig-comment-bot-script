@@ -106,6 +106,7 @@ def main():
 			print("Warning: request time was too short. This might mean the comment didn't go through")
 			consecutive_warnings += 1
 		elif result == "200":
+			consecutive_warnings = 0
 			print("success")
 		else:
 			print(f"Error {result}")
